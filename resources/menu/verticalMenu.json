@@ -1,0 +1,108 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons ri-home-smile-line",
+      "slug": "dashboard-analytics"
+    },
+    {
+      "menuHeader": "Absensi"
+    },
+    {
+      "url": "app/absensi/list",
+      "name": "Daftar Kehadiran",
+      "icon": "menu-icon tf-icons ri-calendar-check-line",
+      "slug": "app-absensi-list"
+    },
+    {
+      "url": "app/absensi/stats",
+      "name": "Statistik Kehadiran",
+      "icon": "menu-icon tf-icons ri-bar-chart-box-line",
+      "slug": "app-absensi-stats"
+    },
+    {
+      "menuHeader": "Perangkat"
+    },
+    {
+      "url": "app/absensi/device-reset",
+      "name": "Reset Perangkat",
+      "icon": "menu-icon tf-icons ri-smartphone-line",
+      "slug": "app-absensi-device-reset",
+      "badge": [
+        "danger",
+        "0"
+      ]
+    },
+    {
+      "menuHeader": "Pengaturan Absensi"
+    },
+    {
+      "url": "app/absensi/branches",
+      "name": "Manajemen Kantor",
+      "icon": "menu-icon tf-icons ri-building-line",
+      "slug": "app-absensi-branches"
+    },
+    {
+      "url": "app/absensi/time-settings",
+      "name": "Pengaturan Jam",
+      "icon": "menu-icon tf-icons ri-time-line",
+      "slug": "app-absensi-time-settings"
+    },
+    {
+      "menuHeader": "Pengguna"
+    },
+    {
+      "url": "app/user/list",
+      "name": "Daftar Pengguna",
+      "icon": "menu-icon tf-icons ri-user-line",
+      "slug": "app-user-list"
+    },
+    {
+      "name": "Akses & Izin",
+      "icon": "menu-icon tf-icons ri-lock-2-line",
+      "slug": "app-access",
+      "submenu": [
+        {
+          "url": "app/access-roles",
+          "name": "Peran",
+          "slug": "app-access-roles"
+        },
+        {
+          "url": "app/access-permission",
+          "name": "Izin",
+          "slug": "app-access-permission"
+        }
+      ]
+    },
+    {
+      "menuHeader": "Konten"
+    },
+    {
+      "url": "app/blog/management",
+      "name": "Blog & Berita",
+      "icon": "menu-icon tf-icons ri-article-line",
+      "slug": "app-blog-management"
+    },
+    {
+      "menuHeader": "Pengaturan"
+    },
+    {
+      "name": "Pengaturan Akun",
+      "icon": "menu-icon tf-icons ri-settings-3-line",
+      "slug": "pages-account-settings",
+      "submenu": [
+        {
+          "url": "pages/account-settings-account",
+          "name": "Akun",
+          "slug": "pages-account-settings-account"
+        },
+        {
+          "url": "pages/account-settings-security",
+          "name": "Keamanan",
+          "slug": "pages-account-settings-security"
+        }
+      ]
+    }
+  ]
+}
