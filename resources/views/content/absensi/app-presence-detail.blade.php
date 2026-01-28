@@ -8,7 +8,6 @@
   'resources/assets/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.scss',
   'resources/assets/vendor/libs/flatpickr/flatpickr.scss',
   'resources/assets/vendor/libs/sweetalert2/sweetalert2.scss',
-  'resources/assets/vendor/libs/leaflet/leaflet.scss',
   'resources/assets/vendor/libs/apex-charts/apex-charts.scss'
 ])
 @endsection
@@ -18,7 +17,6 @@
   'resources/assets/vendor/scss/pages/page-user-view.scss'
 ])
 <style>
-  #locationMap { height: 300px; border-radius: 0.5rem; }
   .tab-content { display: none; }
   .tab-content.active { display: block; }
 </style>
@@ -30,7 +28,6 @@
   'resources/assets/vendor/libs/moment/moment.js',
   'resources/assets/vendor/libs/flatpickr/flatpickr.js',
   'resources/assets/vendor/libs/sweetalert2/sweetalert2.js',
-  'resources/assets/vendor/libs/leaflet/leaflet.js',
   'resources/assets/vendor/libs/apex-charts/apexcharts.js'
 ])
 @endsection
@@ -164,7 +161,7 @@
 
     <!-- Tab Content: History -->
     <div class="tab-content active" id="tab-history">
-      <!-- Location Map Card -->
+      {{-- Location Map Card - Hidden temporarily
       <div class="card mb-6">
         <div class="card-header d-flex justify-content-between align-items-center">
           <h5 class="mb-0"><i class="ri-map-pin-line me-2"></i>Lokasi Absensi</h5>
@@ -186,7 +183,7 @@
           </div>
         </div>
       </div>
-      <!-- /Location Map Card -->
+      /Location Map Card --}}
 
       <!-- Attendance History Table -->
       <div class="card">
